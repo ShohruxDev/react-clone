@@ -1,0 +1,17 @@
+.texr{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+}
+.zak{
+    width: 60%;
+    height: 20vh;
+    background-color: white;
+}
+.tak{
+    width: 30%;
+    height: 20vh;
+    background-color: white;  
+}

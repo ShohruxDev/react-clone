@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+@import "tailwindcss";
+.cards {
+  display: grid;
+  list-style: none;
+  font-family: sans-serif;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+}
+body{
+  overflow-x: hidden;
+}
+.card{
+  border-radius: 8px;
+  padding: 30px;
+}
+.card-content{
+  padding: 50px;
+}
+
+.carousel-root{
+  margin: 0 auto !important;
+  width: 400px !important;
+}
+.carousel-slider{
+  margin-top: 20vh !important;
+}
+.control-arrow{
+  background-color: rgb(90, 238, 154) !important;
+  margin-top: 30% !important;
+  width: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px !important;
+}
+
+.carousel-status{
+  font-size: 20px !important;
+  margin-top: 12px;
+  color: black !important;
+}
+
+.slider-wrapper{
+  width: 200px !important;
+  height: 300px !important;
+}
+
+.control-dots{
+  display: none !important;
+}

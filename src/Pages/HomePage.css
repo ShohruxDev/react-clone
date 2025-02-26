@@ -1,0 +1,130 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.product-card {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+/* .product-card:hover{
+  width: 105%;
+  transition: all 0.3s;
+  height: 110%;
+} */
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.kupit{
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.star{
+  display: flex;
+  width: 10%;
+  align-items: center;
+  gap:0px;
+}
+.btn-0{
+  padding: 10px 40px;
+  border-radius: 8px;
+  background-color: rgb(51, 51, 222);
+  cursor: pointer;
+}
+.btn-0:hover{
+  background-color: blue;
+}
+.btn-1:hover{
+  background-color: rgb(53, 232, 172);
+}
+.btn-1{
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.grid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.yur{
+  padding: 5px 7px;
+  border-radius: 10px;
+  background-color: crimson;
+  cursor: pointer;
+}
+.yur:hover{
+  background-color:rgb(208, 12, 52) ;
+}
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.moda{
+  padding: 5px 5px;
+  border-radius: 8px;
+  border: 1px solid darkcyan;
+  font-size: 12px;
+  cursor: pointer;
+}
+.moda:hover{
+  background-color: rgb(191, 227, 227);
+}
+
+
+.modal-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; 
+}
+
+
+.modal-content-2 {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.close-btn-2 {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color:rgb(87, 87, 188);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
